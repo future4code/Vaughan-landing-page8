@@ -70,6 +70,12 @@ header ul {
     background-color: #132235;
 }
 
+h1 {
+    color: #6DDAD3;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
 .texto-inicio {
     width: 1fr;
     align-self: center;

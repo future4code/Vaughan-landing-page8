@@ -52,4 +52,13 @@ header ul {
     border: #6DDAD3 solid 2px;    
 }
 
+.botao-login:hover {
+    background-color: #6DDAD3;
+    color: #132235;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
 

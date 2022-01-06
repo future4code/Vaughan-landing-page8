@@ -11,13 +11,13 @@ header {
     background-color: #132235;
     color: #ffffff;  
     display: flex;
-    max-height: 10vh;
+    max-height: 20vh;
     justify-content: space-around;
     align-items: center;   
 }
 
 .logo {
-    max-height: 10vh;
+    max-height: 15vh;
 }
 
 header ul {
@@ -30,6 +30,7 @@ header ul {
 #botao-menu {
     color: #ffffff;
     text-decoration: none;
+    font-size: large;
 }
 
 #botao-menu:hover {
@@ -59,6 +60,11 @@ header ul {
     font-weight: 600;
 }
 
+/* ------ SEÇÃO INÍCIO ------ */
+
+.imagem-inicial {
+    max-height: 70vh;
+}
 
 
 

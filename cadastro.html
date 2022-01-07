@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.html" defer></script>
-    <script src="cadastro.html" defer></script>
     <link rel='stylesheet' type='text/css' href="style.css">
-    <title>F4LIFE - Entrar</title>
+    <title>F4LIFE - Cadastro</title>
 </head>
 <body>
     <header>
@@ -31,30 +30,33 @@
         </ul>
         <a href="login.html"><button class="botao-login">Entrar</button></a>
     </header>
-    <nav id="login">
-        <form method="post">
-            <h1>Entrar</h1>
-            <p>
-                <label for="email-login">E-mail</label>
-                <input id="email-login" name="email-login" required="required" type="text" placeholder="ana@f4life.com"/>
-            </p>
-            <p>
-                <label for="senha-login">Nome</label>
-                <input id="senha-login" name="senha-login" required="required" type="password" placeholder="senha"/>
-            </p>
-            <p>
-                <label for="manter-logado">Manter-me logado</label>
-                <input id="manter-logado" name="manter-logado" type="checkbox" value="checked"/>
-            </p>
-            <p>
-                <input type="submit" value="Entrar"/>
-            </p>
-            <p class="link">
-                Ainda não tem conta?
-                <a href="cadastro.html">Cadastre-se</a>
-              </p>
+    <nav id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="nome-cadastro">Seu nome</label>
+            <input id="nome-cadastro" name="nome-cadastro" required="required" type="text" placeholder="Ana Silva" />
+          </p>
+           
+          <p> 
+            <label for="email-cadastro">Seu e-mail</label>
+            <input id="email-cadastro" name="email-cadastro" required="required" type="email" placeholder="ana@f4life.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha-cadastro">Sua senha</label>
+            <input id="senha-cadastro" name="senha-cadastro" required="required" type="password" placeholder="1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="login.html"> Ir para página de acesso </a>
+          </p>
         </form>
-
-    </nav>
 </body>
 </html>

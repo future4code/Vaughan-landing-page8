@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* ------- HEADER ------- */
@@ -35,11 +35,11 @@ header ul {
 }
 
 #botao-menu:hover {
-    color: #6DDAD3;
+  color: #6ddad3;
 }
 
 #botao-menu:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .botao-login {
@@ -95,4 +95,65 @@ h1 {
 }
 
 
+/* ------- Section Vantagens ------- */
 
+
+.section-title {
+  height: 10vh;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: xx-large;
+  padding: 20px;
+  background-color: #132235;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-container {
+  background-color: #132235;
+  height: 35vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-left: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-container .container-cards .icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.main-container .container-cards img {
+  width: 100%;
+}
+
+.main-container .container-cards h3 {
+  padding: 10px;
+}
+
+.main-container .container-cards span {
+  max-width: 240px;
+}
+
+/* ------- Section Nossos apartamentos ------- */
+
+.card-apartamento > img {
+  height: 64px;
+  width: 64px;
+}

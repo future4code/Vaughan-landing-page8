@@ -6,31 +6,32 @@
 /* ------- HEADER ------- */
 
 header {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  letter-spacing: 0.1rem;
-  background-color: #132235;
-  color: #ffffff;
-  display: flex;
-  max-height: 10vh;
-  justify-content: space-around;
-  align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .1rem;
+    background-color: #132235;
+    color: #ffffff;  
+    display: flex;
+    max-height: 20vh;
+    justify-content: space-evenly;
+    align-items: center;   
+    padding: 0 10%;
 }
 
 .logo {
-  max-height: 10vh;
+    max-height: 15vh;
 }
 
 header ul {
-  display: flex;
-  width: 60%;
-  justify-content: space-around;
-  list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 #botao-menu {
-  color: #ffffff;
-  text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: medium;
 }
 
 #botao-menu:hover {
@@ -42,19 +43,60 @@ header ul {
 }
 
 .botao-login {
-  width: 8vw;
-  height: 4vh;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  font-weight: 400;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #132235;
-  color: #ffffff;
-  border: #6ddad3 solid 2px;
+    width: 8vw;
+    min-height: 4vh;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #132235;
+    color: #ffffff ;
+    border: #6DDAD3 solid 2px;    
 }
 
+.botao-login:hover {
+    background-color: #6DDAD3;
+    color: #132235;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ------ SEÇÃO INÍCIO ------ */
+
+#inicio {
+    display: flex;   
+    justify-content: space-between; 
+    padding-left: 1%;
+    background-color: #132235;
+}
+
+h1 {
+    color: #6DDAD3;
+    padding-bottom: 5%;
+    font-size: 2.3rem;
+    padding-bottom: 10%;
+    text-align: center;
+    
+}
+
+.texto-inicio {
+    width: 1fr;
+    align-self: center;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    padding: 5%;
+}
+
+
+.imagem-inicial {
+    max-height: 60vh;
+    width: 2fr;
+}
+
+
 /* ------- Section Vantagens ------- */
+
 
 .section-title {
   height: 10vh;

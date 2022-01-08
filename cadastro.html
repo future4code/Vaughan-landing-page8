@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.html" defer></script>
+    <link rel='stylesheet' type='text/css' href="style.css">
+    <link rel='stylesheet' type='text/css' href="formularios.css">
+    <title>F4LIFE - Cadastro</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagens/f4life-logo-cortado.png" alt="logotipo">
+        <ul>
+            <li>
+                <a id="botao-menu" href=index.html>Início</a>
+            </li>
+            <li>
+                <a id="botao-menu" href=#como-funciona>Como funciona</a>
+            </li>
+            <li>
+                <a id="botao-menu" href=#apartamentos>Apartamentos</a>
+            </li>
+            <li>
+                <a id="botao-menu" href=#requisitos>Requisitos</a>
+            </li>
+            <li>
+                <a id="botao-menu" href=#contato>Contato</a>
+            </li>
+        </ul>
+        <a href="login.html"><button class="botao-login">Entrar</button></a>
+    </header>
+    <main id="container">
+    <nav id="cadastro">
+        <form method="post" action=""> 
+          <h2>Cadastro</h2> 
+           
+          <p> 
+            <label for="nome-cadastro">Seu nome</label>
+            <input id="nome-cadastro" name="nome-cadastro" required="required" type="text" placeholder="Ana Silva" />
+          </p>
+           
+          <p> 
+            <label for="email-cadastro">Seu e-mail</label>
+            <input id="email-cadastro" name="email-cadastro" required="required" type="email" placeholder="ana@f4life.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha-cadastro">Sua senha</label>
+            <input id="senha-cadastro" name="senha-cadastro" required="required" type="password" placeholder="1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="login.html"> Ir para página de acesso </a>
+          </p>
+        </form>
+        </nav>
+    </main>
+</body>
+</html>

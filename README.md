@@ -1,6 +1,6 @@
 # Vaughan-landing-page8
 
-```
+
 # Projeto F4LIFE - Moradias Universitárias
 
 ## Sobre o projeto:
@@ -16,4 +16,4 @@ Você precisa criar uma landing page que chame a atenção de pessoas que estão
 
 ## Link do surge
 
-```
+

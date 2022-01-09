@@ -182,6 +182,8 @@
 
     <section id="Redes Sociais">
 
+        <table>
+
         <div class="Instagram">
             <i class="icone instagram"></i>
             <p>Acesse nossas redes sociais e acompanhe tudo sobre essa nova experiência!</p>
@@ -191,24 +193,46 @@
         </div>
 
         <div class="Facebook">
-            <i class="icone facebook"></i>
-            <img src="imagens/facebook.png" alt=" lodo-facebook">
-            <br><br>
-        </div>
 
-        <div class="Youtube">
-           <i class="icone Youtube"></i>
-           <img src="imagens/youtube.png" alt="logo-youtube"
-           <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <i class="icone facebook"></i>
+                        <img src="imagens/facebook.png" alt=" lodo-facebook">
+                    </td>                
+                </tr>
+                <br><br>
+    
+            </div>
+    
+            <div class="Youtube">
+    
+                <tr>
+                    <td>
+                        <i class="icone Youtube"></i>
+                        <img src="imagens/youtube.png" alt="logo-youtube"
+                    </td>                
+                </tr>
+    
+
+            </table>
+
+           
+            <br><br>
         </div>
 
         <div class="whatsapp">
-            <i class="icone whatsapp"></i>
-            <img src="imagens/whatsapp.png" alt="logo-whatsapp">
-            <br><br>
-            <br><br>
-            <br><br>
+
+            <tr>
+                <i class="icone whatsapp"></i>
+                <img src="imagens/whatsapp.png" alt="logo-whatsapp">
+            </tr>
+
+             <br><br>
+             <br><br>
+             <br><br>
          </div>
+        </table>
 
     </section>
 
@@ -216,31 +240,42 @@
 
        <div class="formulário">
 
-           <form action="formulário"> 
+           <form action="#"> 
 
-                 <input type="Fale Conosco!">
-                 <h1>Fale Conosco!</h1>
+                <h1>Fale Conosco!</h1>
+                <br>
 
-               <div class="styled-input">            
-                  <input type="nome" id="Contato-name" value name="name" required="required">
-                  <label> Nome Completo</label>
+               <div class="styled-input">       
+                  <label for="contato-name"> Nome Completo</label>   
+                  <br>  
+                  <input type="text" id="contato-name" value name="name" required="required">
+                  <br>
+                </div>
+                
+
+               <div class="styled-input">
+                  <label for="contato-email"> Email</label>
+                  <br>
+                  <input type="email" id="contato-email" value name="email" required="required">
+                  <br>
                </div>
 
                <div class="styled-input">
-                  <input type="email" id="Contato-email" value name="email" required="required">
-                  <label> Email</label>
-               </div>
+                  <label for="contato-telefone"> Número do celular com whatsapp e DDD </label>
+                  <br>
+                  <input type="tel" id="contato-telefone" value name="telefone" required="required">
+                </div>
 
                <div class="styled-input">
-                  <input type="number" id="Contato-telefone" value name="telefone" required="required">
-                 <label> Número do celular com whatsapp e DDD </label>
+                  <label for="mensagem-do-usuario"> Escreva a sua mensagem aqui </label>
+                  <br>
+                  <input type="text" id="mensagem-do-usuario" value name="texto-do-usuario" required="required">
                </div>
 
-               <div class="styled-input">
-                <input type="mensagem," id="mensagem" value name="texto-do-usuario" required="required">
-               <label> Escreva a sua mensagem aqui </label>
-             </div>
-
+               <div>
+                   <button type="submit">Enviar</button>
+               </div>
+               <br>
            </form>
 
         </div>

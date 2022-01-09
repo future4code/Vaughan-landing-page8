@@ -6,33 +6,33 @@
 /* ------- HEADER ------- */
 
 header {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: .1rem;
-    background-color: #132235;
-    color: #ffffff;  
-    width: 100vw;
-    display: flex;
-    max-height: 20vh;
-    justify-content: space-around;
-    align-items: center;   
-    
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.1rem;
+  background-color: #132235;
+  color: #ffffff;
+  width: 100vw;
+  display: flex;
+  max-height: 20vh;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
-    max-height: 15vh;
+  max-height: 15vh;
 }
 
 header ul {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 #botao-menu {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: medium;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: medium;
 }
 
 #botao-menu:hover {
@@ -44,78 +44,76 @@ header ul {
 }
 
 .botao-login {
-    width: 8vw;
-    min-height: 4vh;
-    font-size: 1rem;
-    letter-spacing: .1rem;
-    font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #132235;
-    color: #ffffff ;
-    border: #6DDAD3 solid 2px;    
+  width: 8vw;
+  min-height: 4vh;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #132235;
+  color: #ffffff;
+  border: #6ddad3 solid 2px;
 }
 
 .botao-login:hover {
-    background-color: #6DDAD3;
-    color: #132235;
-    cursor: pointer;
-    font-weight: 600;
+  background-color: #6ddad3;
+  color: #132235;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 /* ------ SEÇÃO INÍCIO ------ */
 
 #inicio {
-    display: flex;   
-    justify-content: space-between; 
-    background-color: #132235;
+  display: flex;
+  justify-content: space-between;
+  background-color: #132235;
 }
 
 #inicio h1 {
-    color: #6DDAD3;
-    padding-bottom: 5%;
-    font-size: 2.3rem;
-    padding-bottom: 10%;
-    text-align: center;
-    
+  color: #6ddad3;
+  padding-bottom: 5%;
+  font-size: 2.3rem;
+  padding-bottom: 10%;
+  text-align: center;
 }
 
 .texto-inicio {
-    width: 1fr;
-    align-self: center;
-    color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.6rem;
-    padding: 5%;
-    text-align: center;
+  width: 1fr;
+  align-self: center;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  padding: 5%;
+  text-align: center;
 }
-
 
 .imagem-inicial {
-    max-height: 60vh;
-    width: 60%;
-    max-width: 100vw;
+  max-height: 60vh;
+  width: 60%;
+  max-width: 100vw;
 }
-
 
 /* ------- Section Vantagens ------- */
 
-
-.section-title {
-  height: 10vh;
+.section-title-benefits {
+  height: 1fr;
   width: 100%;
   color: white;
   justify-content: center;
   display: flex;
-  font-size: xx-large;
   padding: 20px;
   background-color: #132235;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
 }
 
-.main-container {
+.main-container-benefits {
   background-color: #132235;
-  height: 35vh;
+  height: 2fr;
   width: 100%;
 
   display: flex;
@@ -124,7 +122,7 @@ header ul {
   padding: 1rem 1.5rem;
 }
 
-.container-cards {
+.container-cards-benefits {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,27 +133,55 @@ header ul {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.main-container .container-cards .icon {
+.main-container-benefits .container-cards-benefits .icon {
   width: 50px;
   height: 50px;
   padding: 10px;
 }
 
-.main-container .container-cards img {
+.main-container-benefits .container-cards-benefits img {
   width: 100%;
 }
 
-.main-container .container-cards h3 {
+.main-container-benefits .container-cards-benefits h3 {
   padding: 10px;
 }
 
-.main-container .container-cards span {
+.main-container-benefits .container-cards-benefits span {
   max-width: 240px;
 }
 
 /* ------- Section Nossos apartamentos ------- */
 
-.card-apartamento > img {
-  height: 64px;
-  width: 64px;
+.section-title-apartments {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  color: #132235;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.3rem;
+}
+
+.main-container-apartments {
+  background-color: #132235;
+}
+
+.container-cards-apartments-solo {
+  background-color: #f6f9ff;
+  width: 100px;
+}
+
+.title-description-apartments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pictures {
+  height: 50px;
+  width: 50px;
 }

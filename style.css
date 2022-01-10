@@ -270,12 +270,10 @@ header ul {
 /* ------- Section Como Funciona ------- */
 
 .como-funciona {
-
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-text-align: center;
-
- } 
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+ Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ text-align: center;
+} 
 
 .subtitulo {
   color: black;
@@ -286,11 +284,44 @@ text-align: center;
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 2%;
+  color: #6ddad3;
 }
 
-.linha{
+.espacamento{
   padding-bottom: 1%;
 }
+
+.redes-sociais {
+  background-color: #132235;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+
+.icone-instagram {
+max-width: 200px;
+max-height: 150px;
+width: auto;
+height: auto;
+}
+
+.icone-youtube {
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  }
+
+  .icone-facebook {
+    max-width: 200px;
+    max-height: 150px;
+    width: 150px;
+    height: 150px;
+    }
+
+
 
 
 /* ------- Section Redes Sociais ------- */

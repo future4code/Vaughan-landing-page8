@@ -13,9 +13,12 @@ header {
   color: #ffffff;
   width: 100vw;
   display: flex;
-  max-height: 20vh;
+  max-height: 16vh;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  top:0;
+  box-shadow: 0 .5px 6px .7px #6ddad3;
 }
 
 .logo {
@@ -69,6 +72,7 @@ header ul {
   display: flex;
   justify-content: space-between;
   background-color: #132235;
+  height: 80vh;
 }
 
 #inicio h1 {
@@ -91,8 +95,8 @@ header ul {
 }
 
 .imagem-inicial {
-  max-height: 60vh;
-  width: 60%;
+  max-height: 80vh;
+  width: 70%;
   max-width: 100vw;
 }
 
@@ -117,10 +121,9 @@ header ul {
   background-color: white;
   height: 2fr;
   width: 100%;
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   padding: 1rem 1.5rem;
 }
 
@@ -165,7 +168,7 @@ header ul {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -173,18 +176,18 @@ header ul {
   display: flex;
   background-color: #132235;
   color: #6ddad3;
-  font-weight: 900;
-  padding: 10px;
+  font-weight: 600;
+  padding: 5px;
 }
 
 .title-description-apartments p {
   width: 50%;
   height: 50%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 10px;
+  padding: 5px;
 }
 
 .main-container-apartments {
@@ -212,11 +215,13 @@ header ul {
   display: flex;
   flex-direction: column;
   background-color: #f6f9ff;
+  height: 90%;
   width: 50%;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   align-items: center;
   border: 1px solid #132235;
-  margin: 20px;
+  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
@@ -228,7 +233,7 @@ header ul {
 }
 
 .card-solo span {
-  padding: 5px;
+  font-size: 1rem;
 }
 
 .available {
@@ -244,8 +249,8 @@ header ul {
 }
 
 .booking {
-  width: 8vw;
-  min-height: 4vh;
+  width: 10vw;
+  height: 4vh;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 400;
